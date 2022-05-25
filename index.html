@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuxa portfolio</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="icon" href="color-icons/start-up.png">
+</head>
+<body>
+    <div class="body">
+   <div class="navbar">
+        <div class="avatar">
+            <img src="images/pixelpic.png" alt="avatar" width="150" height="150">
+        </div>
+        <div class="name-title">
+            <h1>annie kuxa</h1>
+        </div>
+        <div class="name-caption">
+            <p>not your average web developer</p>
+        </div>
+        <div class="contactme">
+            <a href="https://github.com/any-stone" target="_blank">
+                <img src="/images/github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/annkuksa/" target="_blank">
+                <img src="images/linkedin.png">
+            </a>
+            <a href="mailto:kuxa.business@gmail.com" target="_blank">
+                <img src="images/gmail.png" alt="gmail" width="50" height="50">
+            </a>
+        </div>
+        <div class="interruptor">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <img src="images/sun.png" alt="dark" class="darkmode">
+                <img src="images/crescent-moon.png" alt="light" class="lightmode">
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
+    <script>
+        const checkbox = document.getElementById("checkbox");
+
+        checkbox.addEventListener("change", () => {
+            document.body.classList.toggle("light");
+            });
+    </script>
+    <div class="background">
+    <div class="aboutme">
+        <h2>About Me</h2>
+        <p>Hi! I'm Annie, deeply in love with front-end development and IT in general. I have a gnawing hunger for knowledge, specially when it comes to coding.
+            In my free time I enjoy gaming, latte art and listening vaporwave.
+        </p>
+    </div>
+    <div class="projects">
+    <h2>Portfolio</h2>
+    <ul>
+        <a href="nurture (html _ css)/index.html">
+            <li>Porter Robinson's Nurture tour web page project (WIP)</li>
+        </a>
+    </ul>
+
+    </div>
+    <div class="tools">
+        <h2>Tools</h2>
+        <img src="images/html.png" alt="html5" title="HTML5" width="50" height="50">
+        <img src="images/css.png" alt="css" width="50" height="50">
+        <img src="images/sql-server.png" alt="sql" width="50" height="50">
+        <img src="images/java.png" alt="java" width="50" height="50">
+        <img src="images/git.png" alt="git" width="50" height="50">
+        <img src="images/github.png" alt="github" width="50" height="50">
+    </div>
+    <footer>Made with <span class="heart">♥</span> in Canada</footer>
+</div>
+</div>
+</body>
+</html>
