@@ -7,6 +7,14 @@ body {
     transition: background 0.2s linear;
 }
 
+h2 {
+    font-family: Helvetica;
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    left: 10px;
+}
+
 body.light {
     background-color:floralwhite;
 }
@@ -152,20 +160,14 @@ body.light a {
 }
 
 
-
-.aboutme h2, p {
-    font-family: Helvetica;
-    color: white;
-}
-
-
-.aboutme h2 {
+.aboutme {
     position: relative;
-    left: 10px;
-    text-decoration: underline;
+    bottom: 30px;
 }
 
 .aboutme p {
+    font-family: Helvetica;
+    color: white;
     overflow: hidden;
     display: block;
     position: relative;
@@ -175,43 +177,25 @@ body.light a {
 }
 
 
-.projects {
+.portfolio {
     position: relative;
     bottom: 30px;
 }
-.projects h2, ul {
-    font-family: Helvetica;
-}
 
-.projects ul {
+.portfolio ul {
+    font-family: Helvetica;
     position: relative;
     bottom: 5px;
     color: white;
 }
 
-.projects h2 {
-    position: relative;
-    left: 10px;
-    color: white;
-    text-decoration: underline;
-}
-
-.projects a {
+.portfolio a {
     color: white;
 }
 
 .tools {
     position: relative;
     bottom: 30px;
-}
-
-.tools h2 {
-    font-family: Helvetica;
-    text-decoration: underline;
-    color: white;
-    position: relative;
-    left: 10px;
-
 }
 
 .tools img {
