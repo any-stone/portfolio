@@ -5,15 +5,13 @@
 body {
     background-color: #292c35;
     transition: background 0.2s linear;
+    /*text-align: center;*/
 }
 
-h2 {
-    font-family: Helvetica;
-    text-decoration: underline;
-    color: white;
-    position: relative;
-    left: 10px;
-}
+ul {
+    display: table;
+    margin: 0 auto;
+  }
 
 body.light {
     background-color:floralwhite;
@@ -22,6 +20,7 @@ body.light {
 body.light p {
     color: #111;
 }
+
 body.light h1 {
     color: #111;
 }
@@ -35,6 +34,18 @@ body.light ul {
 body.light a {
     color: #111;
 }
+
+h2 {
+    font-family: Helvetica;
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    left: 10px;
+}
+
+.heart {
+    color: red;
+  }
 
 .interruptor {
     position: relative;
@@ -140,7 +151,7 @@ body.light a {
 }
 
 .checkbox:checked + .label .ball {
-    transform: translateX(24px);
+    transform: translateX(25px);
 }
 
 .lightmode {
@@ -208,7 +219,7 @@ body.light a {
     transform: scale(1.5);
 }
 
-.footer{
+footer{
     left: 0;
     bottom: 0;
     width: 100%;
